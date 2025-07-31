@@ -3,10 +3,17 @@ document.addEventListener("DOMContentLoaded", () => {
   const themeToggle = document.getElementById("themeToggle");
   const icon = themeToggle.querySelector("i");
 
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme === "dark") {
+    document.body.classList.add("dark-mode");
+    icon.classList.replace("fa-moon", "fa-sun");
+  }
+
   themeToggle.addEventListener("click", () => {
-    document.body.classList.toggle("dark-mode");
-    icon.classList.toggle("fa-moon");
-    icon.classList.toggle("fa-sun");
+    const isDark = document.body.classList.toggle("dark-mode");
+    icon.classList.toggle("fa-moon", !isDark);
+    icon.classList.toggle("fa-sun", isDark);
+    localStorage.setItem("theme", isDark ? "dark" : "light");
   });
 
   // Show more/less button for skills
