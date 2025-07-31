@@ -282,6 +282,9 @@ section {
     padding: 5rem 2rem;
     max-width: 900px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem 2rem;
     color: var(--text-color);
 }
 
@@ -295,11 +298,17 @@ section {
     color: var(--primary-color);
 }
 
-.skills-list {
-    display: flex;
-    flex-direction: column;
-    gap: 1.8rem;
+.skills-list,
+.extra-skills-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem 2rem;
 }
+
+.skill {
+    width: 100%;
+}
+
 
 .skill {
     width: 100%;
@@ -314,7 +323,8 @@ section {
 
 .skill-bar {
     width: 100%;
-    background-color: var(--bar-bg);
+    background-color: var(--bar-bg, #ddd);
+    /* fallback added */
     border-radius: 30px;
     height: 20px;
     overflow: hidden;
@@ -339,6 +349,39 @@ section {
     font-weight: 700;
     font-size: 0.85rem;
 }
+
+.extra-skills-wrapper {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+.extra-skills-wrapper.open {
+    max-height: 1000px;
+}
+
+
+.show-more-btn {
+    width: 150px;
+    margin-top: 1.5rem;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.show-more-btn:hover {
+    background-color: #360062;
+}
+
+
 
 .contact {
     padding: 5rem 2rem;

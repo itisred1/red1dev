@@ -14,6 +14,21 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  // Smooth Scrolling for Navigation Links
+  const toggleBtn = document.getElementById("toggleSkills");
+  const extraWrapper = document.getElementById("extraSkills");
+  let isOpen = false;
+
+  toggleBtn.addEventListener("click", () => {
+    isOpen = !isOpen;
+
+    extraWrapper.classList.toggle("open", isOpen);
+
+    toggleBtn.innerHTML = isOpen
+      ? 'Show Less <i class="fa-solid fa-chevron-up"></i>'
+      : 'Show More <i class="fa-solid fa-chevron-down"></i>';
+  });
+
   // Back to Top Button
   const backToTopBtn = document.getElementById("backToTop");
 
