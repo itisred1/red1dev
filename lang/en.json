@@ -1,0 +1,53 @@
+{
+  "logoText": "RED1 DEV",
+
+  "headerHome": "Home",
+  "headerAbout": "About",
+  "headerEducation": "Education",
+  "headerSkills": "Skills",
+  "headerContact": "Contacts",
+  "downloadCV": "Download CV",
+
+  "heroGreeting": "Hi, I'm Redouane",
+  "heroSubtitle": "Full-stack Developer",
+  "heroDescription": "I'm a full-stack developer passionate about building responsive web applications, creating clean APIs, and crafting elegant user experiences.",
+  "heroButton": "About Me",
+
+  "aboutTitlePart1": "About",
+  "aboutTitlePart2": "Me",
+  "aboutSubtitle": "Full-stack Developer!",
+  "aboutDescription": "I'm a full-stack web developer with a strong foundation in both front-end and back-end technologies. I enjoy building performant, maintainable websites and applications that provide meaningful user experiences. Whether it's crafting elegant UIs or building RESTful APIs, I aim to write clean, efficient code and stay up-to-date with modern development practices.",
+
+  "educationTitlePart1": "My",
+  "educationTitlePart2": "Education",
+  "educationDegree1": "Specialized Technician in Computer Development",
+  "educationInstitution1": "INLIGI, Sbata Casablanca — 2023 - 2025",
+  "educationDegree2": "Baccalaureate Sciences",
+  "educationInstitution2": "Salah Eddine El Ayoubi, Sidi Maarouf Casablanca — 2022",
+
+  "skillsTitlePart1": "My",
+  "skillsTitlePart2": "Skills",
+
+  "skillHTML5": "HTML5",
+  "skillCSS3": "CSS3",
+  "skillJavaScript": "JavaScript",
+  "skillPHP": "PHP",
+  "skillLaravel": "Laravel",
+  "skillMySQL": "MySQL",
+  "skillReact": "React",
+  "skillNodejs": "Node.js",
+  "skillPython": "Python",
+  "skillGit": "Git & GitHub",
+
+  "showMore": "Show More",
+  "showLess": "Show Less",
+
+  "contactTitlePart1": "Contact",
+  "contactTitlePart2": "Me",
+  "contactFormName": "Your Name",
+  "contactFormEmail": "Your Email",
+  "contactFormMessage": "Your Message",
+  "contactFormSubmit": "Send Message",
+
+  "footerCopyright": "© 2025 Redouane Daali. All rights reserved."
+}

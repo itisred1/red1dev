@@ -1,0 +1,53 @@
+{
+  "logoText": "RED1 DEV",
+
+  "headerHome": "Accueil",
+  "headerAbout": "À propos",
+  "headerEducation": "Éducation",
+  "headerSkills": "Compétences",
+  "headerContact": "Contacts",
+  "downloadCV": "Télécharger CV",
+
+  "heroGreeting": "Salut, je suis Redouane",
+  "heroSubtitle": "Développeur Full-stack",
+  "heroDescription": "Je suis un développeur full-stack passionné par la création d’applications web réactives, la conception d’API propres et la création d’expériences utilisateur élégantes.",
+  "heroButton": "À propos de moi",
+
+  "aboutTitlePart1": "À propos",
+  "aboutTitlePart2": "de moi",
+  "aboutSubtitle": "Développeur Full-stack !",
+  "aboutDescription": "Je suis un développeur full-stack avec une solide expérience en technologies front-end et back-end. J’aime créer des sites et applications performants et maintenables qui offrent des expériences utilisateur significatives. Que ce soit pour concevoir des interfaces élégantes ou développer des API RESTful, j’écris un code propre et efficace tout en restant à jour avec les pratiques modernes.",
+
+  "educationTitlePart1": "Mon",
+  "educationTitlePart2": "Éducation",
+  "educationDegree1": "Technicien Spécialisé en Développement Informatique",
+  "educationInstitution1": "INLIGI, Sbata Casablanca — 2023 - 2025",
+  "educationDegree2": "Baccalauréat Sciences",
+  "educationInstitution2": "Salah Eddine El Ayoubi, Sidi Maarouf Casablanca — 2022",
+
+  "skillsTitlePart1": "Mes",
+  "skillsTitlePart2": "Compétences",
+
+  "skillHTML5": "HTML5",
+  "skillCSS3": "CSS3",
+  "skillJavaScript": "JavaScript",
+  "skillPHP": "PHP",
+  "skillLaravel": "Laravel",
+  "skillMySQL": "MySQL",
+  "skillReact": "React",
+  "skillNodejs": "Node.js",
+  "skillPython": "Python",
+  "skillGit": "Git & GitHub",
+
+  "showMore": "Voir plus",
+  "showLess": "Voir moins",
+
+  "contactTitlePart1": "Contact",
+  "contactTitlePart2": "Moi",
+  "contactFormName": "Votre nom",
+  "contactFormEmail": "Votre e-mail",
+  "contactFormMessage": "Votre message",
+  "contactFormSubmit": "Envoyer le message",
+
+  "footerCopyright": "© 2025 Redouane Daali. Tous droits réservés."
+}

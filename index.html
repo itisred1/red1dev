@@ -11,19 +11,24 @@
 
 <body>
     <header>
-        <a href="#" class="logo">RED1 DEV</a>
-        <nav class="navigation">
-            <a href="#" class="active" aria-current="page">Home</a>
-            <a href="#about">About</a>
-            <a href="#education">Education</a>
-            <a href="#skills">Skills</a>
-            <a href="#contacts">Contacts</a>
+        <a href="#" class="logo" data-i18n="logoText">RED1 DEV</a>
+        <nav class="navigation" aria-label="Main Navigation">
+            <a href="#" class="active" aria-current="page" data-i18n="headerHome">Home</a>
+            <a href="#about" data-i18n="headerAbout">About</a>
+            <a href="#education" data-i18n="headerEducation">Education</a>
+            <a href="#skills" data-i18n="headerSkills">Skills</a>
+            <a href="#contacts" data-i18n="headerContact">Contacts</a>
             <a href="Redouane_Daali_CV.pdf" download class="btn-download">
-                <i class="fa-solid fa-download"></i> Download CV
+                <i class="fa-solid fa-download"></i> <span data-i18n="downloadCV">Download CV</span>
             </a>
         </nav>
 
-        <button id="themeToggle" class="theme-toggle">
+        <div class="language-switcher">
+            <button class="lang-btn active" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="fr">FR</button>
+        </div>
+
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
             <i class="fa-solid fa-moon"></i>
         </button>
     </header>
@@ -31,21 +36,25 @@
 
     <section class="main-section fade-in" id="home">
         <div class="hero-content">
-            <h2>Hi, I'm Redouane<br><span>Full-stack Developer</span></h2>
-            <h3>
+            <h2>
+                <span data-i18n="heroGreeting">Hi, I'm Redouane</span><br />
+                <span data-i18n="heroSubtitle">Full-stack Developer</span>
+            </h2>
+            <h3 data-i18n="heroDescription">
                 I'm a full-stack developer passionate about building responsive web applications, creating clean APIs,
                 and crafting elegant user experiences.
             </h3>
-            <a href="#about" class="main-btn">About Me</a>
+            <a href="#about" class="main-btn" data-i18n="heroButton">About Me</a>
         </div>
     </section>
 
-
     <section class="about fade-in" id="about">
-        <h2 class="title">About <span>Me</span></h2>
+        <h2 class="title">
+            <span data-i18n="aboutTitlePart1">About</span> <span data-i18n="aboutTitlePart2">Me</span>
+        </h2>
         <div class="content">
-            <h3 class="sub-title">Full-stack Developer!</h3>
-            <p class="about-me">
+            <h3 class="sub-title" data-i18n="aboutSubtitle">Full-stack Developer!</h3>
+            <p class="about-me" data-i18n="aboutDescription">
                 I'm a full-stack web developer with a strong foundation in both front-end and back-end technologies. I
                 enjoy building performant, maintainable websites and applications that provide meaningful user
                 experiences. Whether it's crafting elegant UIs or building RESTful APIs, I aim to write clean, efficient
@@ -55,56 +64,61 @@
     </section>
 
     <section class="education fade-in" id="education">
-        <h2 class="title">My <span>Education</span></h2>
+        <h2 class="title">
+            <span data-i18n="educationTitlePart1">My</span> <span data-i18n="educationTitlePart2">Education</span>
+        </h2>
         <div class="edu-container">
             <div class="edu-box">
-                <h3>Technicien Spécialisé en Développement Informatique</h3>
-                <p>INLIGI, Sbata Casablanca — 2023 - 2025</p>
+                <h3 data-i18n="educationDegree1">Technicien Spécialisé en Développement Informatique</h3>
+                <p data-i18n="educationInstitution1">INLIGI, Sbata Casablanca — 2023 - 2025</p>
             </div>
             <div class="edu-box">
-                <h3>Baccalauréat Sciences</h3>
-                <p>Salah Eddine El Ayoubi, Sidi Maarouf Casablanca — 2022</p>
+                <h3 data-i18n="educationDegree2">Baccalauréat Sciences</h3>
+                <p data-i18n="educationInstitution2">Salah Eddine El Ayoubi, Sidi Maarouf Casablanca — 2022</p>
             </div>
         </div>
     </section>
 
+
     <section class="skills fade-in" id="skills">
-        <h2 class="title">My <span>Skills</span></h2>
+        <h2 class="title">
+            <span data-i18n="skillsTitlePart1">My</span> <span data-i18n="skillsTitlePart2">Skills</span>
+        </h2>
 
         <div class="skills-list">
             <!-- Visible Skills -->
             <div class="skill">
-                <div class="skill-name">HTML5</div>
+                <div class="skill-name" data-i18n="skillHTML5">HTML5</div>
                 <div class="skill-bar">
                     <div class="skill-fill" data-fill="95%"></div>
                 </div>
             </div>
             <div class="skill">
-                <div class="skill-name">CSS3</div>
+                <div class="skill-name" data-i18n="skillCSS3">CSS3</div>
                 <div class="skill-bar">
                     <div class="skill-fill" data-fill="90%"></div>
                 </div>
             </div>
             <div class="skill">
-                <div class="skill-name">JavaScript</div>
+                <div class="skill-name" data-i18n="skillJavaScript">JavaScript</div>
                 <div class="skill-bar">
                     <div class="skill-fill" data-fill="85%"></div>
                 </div>
             </div>
             <div class="skill">
-                <div class="skill-name">PHP</div>
+                <div class="skill-name" data-i18n="skillPHP">PHP</div>
                 <div class="skill-bar">
                     <div class="skill-fill" data-fill="80%"></div>
                 </div>
             </div>
             <div class="skill">
-                <div class="skill-name">Laravel</div>
+                <div class="skill-name" data-i18n="skillLaravel">Laravel</div>
                 <div class="skill-bar">
                     <div class="skill-fill" data-fill="75%"></div>
                 </div>
             </div>
             <div class="skill">
-                <div class="skill-name">MySQL</div>
+                <div class="skill-name" data-i18n="skillMySQL">MySQL</div>
                 <div class="skill-bar">
                     <div class="skill-fill" data-fill="70%"></div>
                 </div>
@@ -114,56 +128,59 @@
         <!-- Extra skills hidden -->
         <div class="extra-skills-wrapper" id="extraSkills">
             <div class="skill">
-                <div class="skill-name">React</div>
+                <div class="skill-name" data-i18n="skillReact">React</div>
                 <div class="skill-bar">
                     <div class="skill-fill" data-fill="65%"></div>
                 </div>
             </div>
             <div class="skill">
-                <div class="skill-name">Node.js</div>
+                <div class="skill-name" data-i18n="skillNodejs">Node.js</div>
                 <div class="skill-bar">
                     <div class="skill-fill" data-fill="60%"></div>
                 </div>
             </div>
             <div class="skill">
-                <div class="skill-name">Python</div>
+                <div class="skill-name" data-i18n="skillPython">Python</div>
                 <div class="skill-bar">
                     <div class="skill-fill" data-fill="70%"></div>
                 </div>
             </div>
             <div class="skill">
-                <div class="skill-name">Git & GitHub</div>
+                <div class="skill-name" data-i18n="skillGit">Git & GitHub</div>
                 <div class="skill-bar">
                     <div class="skill-fill" data-fill="85%"></div>
                 </div>
             </div>
         </div>
 
-        <button class="show-more-btn" id="toggleSkills">
+        <button class="show-more-btn" id="toggleSkills" data-i18n="showMore">
             Show More <i class="fa-solid fa-chevron-down"></i>
         </button>
     </section>
 
 
     <section class="contact fade-in" id="contacts">
-        <h2 class="title">Contact <span>Me</span></h2>
+        <h2 class="title">
+            <span data-i18n="contactTitlePart1">Contact</span> <span data-i18n="contactTitlePart2">Me</span>
+        </h2>
         <div class="contact-container">
             <form class="contact-form" action="contact.php" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required />
-                <input type="email" name="email" placeholder="Your Email" required />
-                <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
-                <button type="submit" class="main-btn">Send Message</button>
+                <input type="text" name="name" placeholder="" required data-i18n-placeholder="contactFormName" />
+                <input type="email" name="email" placeholder="" required data-i18n-placeholder="contactFormEmail" />
+                <textarea name="message" rows="6" placeholder="" required
+                    data-i18n-placeholder="contactFormMessage"></textarea>
+                <button type="submit" class="main-btn" data-i18n="contactFormSubmit">Send Message</button>
             </form>
         </div>
 
-        <div class="social-links">
-            <a href="https://github.com/yourusername" target="_blank">
+        <div class="social-links" aria-label="Social Media Links">
+            <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub Profile">
                 <i class="fab fa-github"></i>
             </a>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank">
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn Profile">
                 <i class="fab fa-linkedin"></i>
             </a>
-            <a href="https://instagram.com/yourprofile" target="_blank">
+            <a href="https://instagram.com/yourprofile" target="_blank" aria-label="Instagram Profile">
                 <i class="fab fa-instagram"></i>
             </a>
         </div>
@@ -171,16 +188,23 @@
 
     <footer class="footer">
         <div class="footer-content">
-            <p>&copy; 2025 Redouane Daali. All rights reserved.</p>
-            <div class="footer-links">
-                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://instagram.com/yourprofile" target="_blank"><i class="fab fa-instagram"></i></a>
+            <p data-i18n="footerCopyright">&copy; 2025 Redouane Daali. All rights reserved.</p>
+            <div class="footer-links" aria-label="Footer Social Media Links">
+                <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub Profile">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn Profile">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://instagram.com/yourprofile" target="_blank" aria-label="Instagram Profile">
+                    <i class="fab fa-instagram"></i>
+                </a>
             </div>
         </div>
     </footer>
 
     <button id="backToTop" aria-label="Back to top">↑</button>
+
 
     <script src="js/script.js"></script>
 </body>
