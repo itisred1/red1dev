@@ -25,8 +25,8 @@ document.addEventListener("DOMContentLoaded", () => {
     isOpen = !isOpen;
     extraWrapper.classList.toggle("open", isOpen);
     toggleBtn.innerHTML = isOpen
-      ? 'Show Less <i class="fa-solid fa-chevron-up"></i>'
-      : 'Show More <i class="fa-solid fa-chevron-down"></i>';
+      ? '<i class="fa-solid fa-chevron-up"></i>'
+      : '<i class="fa-solid fa-chevron-down"></i>';
   });
 
   // Back to top button visibility and behavior

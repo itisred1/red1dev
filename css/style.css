@@ -387,7 +387,7 @@ section {
 
 
 .show-more-btn {
-    width: 150px;
+    width: 50px;
     margin-top: 1.5rem;
     padding: 10px 20px;
     background-color: var(--primary-color);
@@ -399,6 +399,8 @@ section {
     transition: background 0.3s ease;
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+    align-self: center;
     gap: 8px;
 }
 
