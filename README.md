@@ -1,92 +1,40 @@
-💼 Redouane Daali - Portfolio Website
-Welcome to my personal portfolio website! This site showcases my skills, projects, and experience as a Full-stack Developer.
-It highlights my technical abilities, creativity, and passion for building modern web solutions.
+# 💼 Redouane Daali - Portfolio Website
 
-🌐 Live Demo
-👉 red1dev.com
+Welcome to my personal portfolio website! This site showcases my skills, projects, and experience as a **Fullstack Web Developer**. It highlights my ability to build dynamic and responsive web applications using modern technologies.
 
-🛠️ Built With
-HTML5, CSS3, JavaScript
+## 🌐 Live Demo
 
-PHP
+👉 [redouanedaali.com](https://redouanedaali.com) *(replace with your actual domain if different)*
 
-PHPMailer for secure contact form emails
+## 🛠️ Built With
 
-.env for environment configuration
+- **HTML5**
+- **CSS3**
+- **JavaScript (Vanilla)**
+- **PHP (with and without Laravel)**
+- **MySQL**
 
-Multi-language support (English / French)
+## 📂 Features
 
-Dark / Light theme toggle
+- ✅ Clean and modern responsive design
+- 📱 Mobile-friendly layout
+- 🧑‍💻 Project showcase with detailed tech stack
+- 📄 Downloadable CV
+- 📬 Contact form with email functionality
+- 🔐 Admin dashboard (for product management, if e-commerce)
 
-📂 Project Structure
-css/ - Stylesheets
+## 📸 Screenshots
 
-js/ - JavaScript scripts
+_Add screenshots of your homepage, project gallery, and contact page here._
 
-lang/ - Language JSON files (en.json, fr.json)
+## 🧩 How to Use Locally
 
-PHPMailer/ - PHPMailer library for SMTP mailing
+```bash
+# 1. Clone the repository
+git clone https://github.com/redouanedaali/portfolio-website.git
 
-index.html - Main portfolio webpage
+# 2. Navigate into the folder
+cd portfolio-website
 
-contact.php - Server-side contact form processor
-
-.env.example - Template for environment variables
-
-.gitignore - Git ignore rules
-
-📋 Features
-Clean, modern and responsive design (desktop-first)
-
-Dark and Light theme switcher
-
-Multi-language support with English and French
-
-Downloadable CV link
-
-Contact form with backend email sending via PHPMailer and Gmail SMTP
-
-Secure environment variables for sensitive data
-
-Smooth animations and fade-in effects on scroll
-
-🧪 Running Locally
-Clone the repository
-git clone https://github.com/itisred1/red1dev.git
-
-Navigate to the project folder
-cd red1dev
-
-Create your environment config file from the template
-cp .env.example .env
-
-Edit the .env file to add your SMTP email and password
-
-Start PHP built-in server (from the root folder)
-php -S localhost:8000
-
-Open your browser at http://localhost:8000 to see the website.
-
-🔒 Security & Best Practices
-The .env file is included in .gitignore and should never be committed with sensitive info.
-
-The contact form only accepts POST requests and responds with JSON.
-
-SMTP credentials are used securely with PHPMailer, not PHP's default mail() function.
-
-Contact API is protected to accept requests only from the same origin.
-
-📸 Screenshots
-Add screenshots here demonstrating desktop design, dark mode, and language toggle.
-
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-🤝 Connect With Me
-GitHub: https://github.com/itisred1
-
-LinkedIn: https://linkedin.com/in/redouane-daali
-
-Email: radwanedaali8@gmail.com
-
-Thank you for checking out my portfolio! Feel free to get in touch.
+# 3. Open with your preferred code editor
+code .
