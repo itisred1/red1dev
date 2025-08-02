@@ -11,6 +11,7 @@ Welcome to my personal portfolio website! This site showcases my skills, project
 - **HTML5**
 - **CSS3**
 - **JavaScript**
+- **PHP**
 
 ## 📂 Features
 
