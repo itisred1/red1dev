@@ -10,7 +10,7 @@ Welcome to my personal portfolio website! This site showcases my skills, project
 
 - **HTML5**
 - **CSS3**
-- **JavaScript (Vanilla)**
+- **JavaScript**
 - **PHP (with and without Laravel)**
 - **MySQL**
 
