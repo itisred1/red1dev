@@ -9,9 +9,7 @@ Welcome to my personal portfolio website! This site showcases my skills, project
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-=======
-- **JavaScript**
-- **PHP (with and without Laravel)**
+- **PHP**
 - **MySQL**
 
 ## 📂 Features
@@ -21,11 +19,10 @@ Welcome to my personal portfolio website! This site showcases my skills, project
 - 🧑‍💻 Project showcase with detailed tech stack
 - 📄 Downloadable CV
 - 📬 Contact form with email functionality
-- 🔐 Admin dashboard (for product management, if e-commerce)
 
 ## 📸 Screenshots
 
-_Add screenshots of your homepage, project gallery, and contact page here._
+...
 
 ## 🧩 How to Use Locally
 
