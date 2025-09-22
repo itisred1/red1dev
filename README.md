@@ -4,21 +4,13 @@ Welcome to my personal portfolio website! This site showcases my skills, project
 
 ## 🌐 Live Demo
 
-<<<<<<< HEAD
-👉 [redouanedaali.com](https://redouanedaali.com) _(replace with your actual domain if different)_
-=======
-👉 [redouanedaali.com](https://redouanedaali.com) *(replace with your actual domain if different)*
->>>>>>> 4b1009a798b911068c3c424fe566000a8453386a
-
 ## 🛠️ Built With
 
 - **HTML5**
 - **CSS3**
-<<<<<<< HEAD
-- **JavaScript (Vanilla)**
+- **JavaScript**
 =======
 - **JavaScript**
->>>>>>> 4b1009a798b911068c3c424fe566000a8453386a
 - **PHP (with and without Laravel)**
 - **MySQL**
 
