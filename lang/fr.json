@@ -3,7 +3,7 @@
 
   "headerHome": "Accueil",
   "headerAbout": "À propos",
-  "headerEducation": "Éducation",
+  "headerEducation": "Formation et Éducation",
   "headerSkills": "Compétences",
   "headerContact": "Contacts",
   "downloadCV": "Télécharger CV",
@@ -18,12 +18,21 @@
   "aboutSubtitle": "Développeur Full-stack !",
   "aboutDescription": "Je suis un développeur full-stack avec une solide expérience en technologies front-end et back-end. J’aime créer des sites et applications performants et maintenables qui offrent des expériences utilisateur significatives. Que ce soit pour concevoir des interfaces élégantes ou développer des API RESTful, j’écris un code propre et efficace tout en restant à jour avec les pratiques modernes.",
 
-  "educationTitlePart1": "Mon",
-  "educationTitlePart2": "Éducation",
-  "educationDegree1": "Technicien Spécialisé en Développement Informatique",
-  "educationInstitution1": "INLIGI, Sbata Casablanca — 2023 - 2025",
-  "educationDegree2": "Baccalauréat Sciences",
-  "educationInstitution2": "Salah Eddine El Ayoubi, Sidi Maarouf Casablanca — 2022",
+  "educationTitlePart1": "Formation",
+  "educationTitlePart2": "et Éducation",
+
+  "educationDegree1": "Stagiaire en Informatique – Bureautique & Gestion de la Facturation",
+  "educationInstitution1": "DS Informatique — Old City, Casablanca — 11/2025 – 01/2026",
+  "educationDescription1": "Stage de fin d’études",
+
+  "educationDegree2": "Technicien spécialisé en développement informatique",
+  "educationInstitution2": "INLGI : Institut Lumière de Gestion et d'Informatique — Sbata, Casablanca — 2023-2025",
+
+  "educationDegree3": "Première année en Biologie",
+  "educationInstitution3": "Faculté des Sciences - Université Hassan 2 — Route El Jadida, Casablanca — 2022-2023",
+
+  "educationDegree4": "Baccalauréat en SVT",
+  "educationInstitution4": "Lycée Salah Eddine El Ayoubi — Casablanca — 2021-2022",
 
   "skillsTitlePart1": "Mes",
   "skillsTitlePart2": "Compétences",
@@ -46,5 +55,5 @@
   "contactFormMessage": "Votre message",
   "contactFormSubmit": "Envoyer le message",
 
-  "footerCopyright": "© 2025 Redouane Daali. Tous droits réservés."
+  "footerCopyright": "© 2026 Redouane Daali. Tous droits réservés."
 }
