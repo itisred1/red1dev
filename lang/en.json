@@ -3,9 +3,9 @@
 
   "headerHome": "Home",
   "headerAbout": "About",
-  "headerEducation": "Education",
+  "headerEducation": "Education & Training",
   "headerSkills": "Skills",
-  "headerContact": "Contacts",
+  "headerContact": "Contact",
   "downloadCV": "Download CV",
 
   "heroGreeting": "Hi, I'm Redouane",
@@ -18,12 +18,21 @@
   "aboutSubtitle": "Full-stack Developer!",
   "aboutDescription": "I'm a full-stack web developer with a strong foundation in both front-end and back-end technologies. I enjoy building performant, maintainable websites and applications that provide meaningful user experiences. Whether it's crafting elegant UIs or building RESTful APIs, I aim to write clean, efficient code and stay up-to-date with modern development practices.",
 
-  "educationTitlePart1": "My",
-  "educationTitlePart2": "Education",
-  "educationDegree1": "Specialized Technician in Computer Development",
-  "educationInstitution1": "INLIGI, Sbata Casablanca — 2023 - 2025",
-  "educationDegree2": "Baccalaureate Sciences",
-  "educationInstitution2": "Salah Eddine El Ayoubi, Sidi Maarouf Casablanca — 2022",
+  "educationTitlePart1": "Education",
+  "educationTitlePart2": "& Training",
+
+  "educationDegree1": "IT Intern – Office Automation & Billing Management",
+  "educationInstitution1": "DS Informatique — Old City, Casablanca — 11/2025 – 01/2026",
+  "educationDescription1": "Final-year internship",
+
+  "educationDegree2": "Specialized Technician in Computer Development",
+  "educationInstitution2": "INLGI: Institut Lumière de Gestion et d'Informatique — Sbata, Casablanca — 2023-2025",
+
+  "educationDegree3": "First Year of Biology",
+  "educationInstitution3": "Faculty of Sciences - Hassan 2 University — Route El Jadida, Casablanca — 2022-2023",
+
+  "educationDegree4": "Baccalaureate in Life and Earth Sciences",
+  "educationInstitution4": "Lycée Salah Eddine El Ayoubi — Casablanca — 2021-2022",
 
   "skillsTitlePart1": "My",
   "skillsTitlePart2": "Skills",
@@ -46,5 +55,5 @@
   "contactFormMessage": "Your Message",
   "contactFormSubmit": "Send Message",
 
-  "footerCopyright": "© 2025 Redouane Daali. All rights reserved."
+  "footerCopyright": "© 2026 Redouane Daali. All rights reserved."
 }
